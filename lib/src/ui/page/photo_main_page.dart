@@ -454,7 +454,7 @@ class _PhotoMainPageState extends State<PhotoMainPage>
       return;
     }
     isPushed = false;
-    compareAndRemoveEntities(result.previewSelectedList);
+//    compareAndRemoveEntities(result.previewSelectedList);
   }
 
   bool handlePreviewResult(List<AssetEntity> v) {
